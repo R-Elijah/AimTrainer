@@ -4,6 +4,7 @@
     Date: 2023/05/05
 
 Summary:
+
     This submission contains a Unity project named AimTrainer which serves as a
     game to help with aim practice for First Person Shooters. The game consists
     of a firing range with targets that react to shots from a the player when
@@ -18,10 +19,13 @@ Summary:
     return to the range by pressing Enter.
 
 Outside Resources Used:
+
     https://assetstore.unity.com/packages/3d/props/guns/stylized-m4-assault-rifle-with-scope-complete-kit-with-gunshot-v-178197
+
     Provides the gun model, sounds and particle effects.
 
 Scenes:
+
     Title -- Has the title text and text telling the player to press enter.
              Switches to Main when enter is hit.
     
@@ -37,6 +41,7 @@ Scenes:
 
 Scene Flow:
 
+
                                                       Enter
                                        ┌────────────────────────────────────┐
                                        │                                    │
@@ -50,6 +55,7 @@ Scene Flow:
 
 
 Scripts:
+
     LoadSceneOnInput.cs -- Taken from Dread50 in class. Simply switches the scene
                            to the Main scene (Firing Range) when Enter is hit in
                            either the Title scene or Results scene. The script is
